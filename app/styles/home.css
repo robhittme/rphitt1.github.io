@@ -1,0 +1,106 @@
+.flex-container {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap; }
+
+header {
+  margin-bottom: 0px !important;
+  min-height: 600px;
+  background-image: url(http://wallpapersblog.org/wp-content/uploads/minimal-ocean-sea-full-hd-wallpaper-clouds-amazing-wallpaper.jpg);
+  background-size: 100%;
+  background-attachment: fixed; }
+  header .headerContent {
+    width: 100%;
+    position: fixed;
+    color: black;
+    background-color: white;
+    opacity: 0.87; }
+    header .headerContent .headerNav li {
+      display: inline-block;
+      list-style-type: none;
+      font-size: 20px;
+      color: black; }
+      header .headerContent .headerNav li a {
+        padding-top: 20px;
+        margin: 20px;
+        position: relative;
+        top: 25px;
+        text-decoration: none;
+        color: black; }
+
+.intro {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px;
+  position: relative;
+  top: 100px; }
+
+.jumbotron {
+  padding: 100px;
+  margin: 0 auto; }
+
+.secondPic {
+  min-height: 400px;
+  background-image: url(http://wallpapersblog.org/wp-content/uploads/minimal-ocean-sea-full-hd-wallpaper-clouds-amazing-wallpaper.jpg);
+  background-attachment: fixed; }
+  .secondPic h3 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 200px; }
+
+.thirdPic {
+  min-height: 400px;
+  background-image: url(http://wallpapersblog.org/wp-content/uploads/minimal-ocean-sea-full-hd-wallpaper-clouds-amazing-wallpaper.jpg);
+  background-attachment: fixed; }
+
+.projects {
+  padding: 20px;
+  display: inline-block;
+  text-align: center; }
+  .projects .project {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    width: 30%;
+    position: center; }
+    .projects .project .description {
+      text-align: center;
+      display: inline-block;
+      font-size: 15px;
+      width: 90%;
+      vertical-align: top; }
+
+.footer {
+  background-size: 100%; }
+  .footer .footerContent {
+    width: 100%;
+    color: black;
+    opacity: 0.87;
+    padding: 100px; }
+    .footer .footerContent .footerNav {
+      text-align: center;
+      color: white; }
+      .footer .footerContent .footerNav h1 {
+        font-size: 80px; }
+      .footer .footerContent .footerNav h3 a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px; }
+      .footer .footerContent .footerNav li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px; }
+        .footer .footerContent .footerNav li a img {
+          width: 50px;
+          height: 50px; }
+
+footer {
+  min-height: 50px; }
+  footer h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px; }
