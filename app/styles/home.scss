@@ -28,12 +28,12 @@ header{
         //     padding: 5px;
         //     margin: 0 auto;
         // }
-    	.headerNav li{
+        .headerNav li{
             h1{
                 font-size: 40px;
             }
-    		display: inline-block;
-    		list-style-type: none;
+            display: inline-block;
+            list-style-type: none;
             font-size: 20px;
             color: black;
             text-align: center;
@@ -49,7 +49,7 @@ header{
                 }
             }
 
-    	} 
+        } 
 }
 .pull{
     float: right;
@@ -252,4 +252,3 @@ and (max-width : 1024px) {
 
     }
 }
-
