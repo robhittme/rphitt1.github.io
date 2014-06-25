@@ -14,23 +14,37 @@ header{
     background-image: url(http://wallpapersblog.org/wp-content/uploads/minimal-ocean-sea-full-hd-wallpaper-clouds-amazing-wallpaper.jpg);
     background-attachment: fixed;
     .headerContent{
+        text-align: center;
         width: 100%;
         position: fixed;
         color: black;
         background-color: white;
         opacity: 0.87;
         margin: 0 auto;
+        // img {
+        //     width: 65px;
+        //     height: 65px;
+        //     border-radius: 100%;
+        //     padding: 5px;
+        //     margin: 0 auto;
+        // }
     	.headerNav li{
+            h1{
+                font-size: 40px;
+            }
     		display: inline-block;
     		list-style-type: none;
             font-size: 20px;
             color: black;
+            text-align: center;
                 a{
-                    margin: 10px;
-                    position: relative;
-                    top: -35px;
+                    display: inline-block;
+                    margin: 25px;
+                    // position: relative;
+                    // // top: -35px;
                     text-decoration: none;
                     color: black;
+                    font-size: 1em;
                     
                 }
             }
@@ -39,6 +53,9 @@ header{
 }
 .pull{
     float: right;
+}
+.push{
+    float: left;
 }
 .intro {
     color: white;
@@ -53,6 +70,7 @@ header{
 .jumbotron{
     padding: 100px;
     margin: 0 auto;
+    text-align: justify;
 }
 .secondPic{
     min-height: 400px;
@@ -84,7 +102,7 @@ header{
         width: 30%;
         position: center;
             .description {
-                text-align: center;
+                text-align: justify;
                 display: inline-block;
                 font-size: 15px;
                 width: 90%;
@@ -144,18 +162,21 @@ footer{
             display: block;
             text-align: center;
             position: relative;
+            top: -1em;
             .headerNav li{
                 h1{
-                    padding: 1em;
+                    padding-top: 1em;
                 }
                 display: block;
                 text-align: center;
                 margin: 1em;
-                a{
+                a {
                     text-align: center;
                     margin: 0 auto;
                     padding: 0px;
                     display: block;
+                    position: relative;
+                    top: -1em;
                 }
 
             }
@@ -167,7 +188,9 @@ footer{
     .pull{
         float: none;
     }
-    
+    .push{
+        float: none;
+    }
     .intro{
         color: white;
         text-align: center;
@@ -216,8 +239,17 @@ footer{
 
 
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-  
+and (min-width : 768px) 
+and (max-width : 1024px) {
+  .projects{
+    margin: 0 auto;
+        .project{
+            display: block;
+            .description{
+                display: none;
+            }
+        }
+
+    }
 }
 
