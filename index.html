@@ -1,0 +1,62 @@
+<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><title>Rob Hitt</title><meta name=description content=""><meta name=viewport content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href=../images/253a83ae.rretro.png><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><link rel=stylesheet href=styles/791fa119.main.css><script src=scripts/vendor/3e1dbd5e.modernizr.js></script><body><!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--><header class=header><div class=mobile-container><nav class=mobile><img src=../images/253a83ae.rretro.png alt="" id=retroLogo class=hidden> <span class="span glyphicon glyphicon-align-justify"></span> <span class="span glyphicon glyphicon-remove hidden"></span><div class="mobile-nav col-xs-12"><a href=#contactInfo class="col-xs-12 mobile-nav-item">CONTACT</a> <a href=http://www.robertphitt.wordpress.com class="col-xs-12 mobile-nav-item">BLOG</a> <a href=#aboutSection class="col-xs-12 mobile-nav-item">ABOUT</a> <a href=#projectsSection class="col-xs-12 mobile-nav-item">PROJECTS</a> <a href="mailto:robhittme@gmail.com?subject=We Want To Hire You Because You're Awesome" class="col-xs-12 mobile-nav-item">EMAIL</a></div></nav></div><div class=headerContent><ul class="headerNav hidden" id=headerNav><li class=push id=myName><h1>Robert P. Hitt</h1></li><li class=pull><a href="mailto:robhittme@gmail.com?subject=We Want To Hire You Because You're Awesome">EMAIL</a></li><li class=pull><a href=#projectsSection>PROJECTS</a></li><li class=pull><a href=#aboutSection>ABOUT</a></li><li class=pull><a href=http://www.robertphitt.wordpress.com>BLOG</a></li><li class=pull><a href=#contactInfo>CONTACT</a></li></ul></div><div class="intro col-xs-12"><h1>Welcome Fellow Traveler.</h1><div id=cf class=col-xs-12><img class="bottom one-edge-shadow" src=../images/0ecebc11.portraitSide.jpg></div><br><br><br><div class=col-xs-12><a href=#aboutSection class=arrowDown id=arrowDown><span class="circle glyphicon glyphicon-circle-arrow-down"></span></a></div></div></header><div class=jumbotron id=aboutSection><p>My name is Robert P. Hitt and I am a front end engineer. I have always had a love for working with others to achieve great things and web development allows me to do just that. Through my education and various experiences, I have found the thing I enjoy most is working with others to solve problems that enrich lives. Since July of 2014 I've had the privilege to work at <a href="http://www.qonceptual.com/" target=_blank>Qonceptual Inc.</a> I Learned what it takes to be a team player, working closely with clients, and understanding the true meaning of an all nighter. I graduated from the <a href=http://www.theironyard.com/education target=_blank>Iron Yard</a> in 2014, an intensive three month coding bootcamp that takes you from zero to front end engineer, and the I have not let the intensity dwindle. I have the confidence to overcome any problem that comes my way. Working with the amazing and talented people at Qonceptual, I have developed a passion for life-long learning, the art of coding, and being a part of this great community. If you want to check out my <a href="https://robertphitt.wordpress.com/resume/">resume</a> you can see some of the awesome stuff I can do.</p></div><div class=secondPic><h3>I look forward to opportunities that allow me to work on rewarding projects with great people.</h3></div><div class=flex-container><div class=projects id=projectsSection><h2>Projects</h2><div class=project><a href=http://www.ezwaves.com><img src=../images/8b839bc1.ezwaves-white.png alt=""></a><p class=description>EZ Waves is a platform to book all types of recreational boating trips from Deep Sea Fishing excursions to Paddle boarding. Working with developers at Qonceptual, I took lead on the front-end development using AngularJS, working on the project from start to finish.</p></div><div class=project><a href=https://focalapp.firebaseapp.com><img src=../images/738e2025.focal.png alt=""></a><p class=description>Focal was my final project at The Iron Yard. Focal is an App that provides information in a clear & concise manner to help inform people about the current state of affairs of their interest. Using AngularJS and Firebase to host, the user has the ability to search topics, with all the information in one place and a timeline to see how the issues have evolved.</p></div><div class=project><a href=http://rphitt1.github.io/zombies><img src=../images/8e56dcb2.zombie.png alt=""></a><p class=description>Lead Zombie is a fun little app I made working with constructors. I created a game that created instances through the users choices. Be careful not to lose against the zombie, or you will become one too!</p></div><br><br><br><br></div></div><div class=thirdPic><div class=footer id=contactInfo><div class=footerContent><ul class=footerNav><h1>Let's Chat.</h1><h3><a href=tel:1-803-553-0893>803-553-0893</a></h3><li><a href=https://github.com/robhittme><img src=images/ce4f263b.github7.png alt=""></a></li><li><a href=http://www.linkedin.com/pub/robert-hitt/80/68/71a><img src=images/82e7b964.linkedin-128.png alt=""></a></li><li><a href=http://www.twitter.com/robhittme><img src=images/a1c780b3.twitter-128.png alt=""></a></li><li><a href="mailto:robhittme@gmail.com?subject=We Want You Because You're Awesome"><img src=../images/a950be7c.mail.png alt=""></a></li></ul></div></div></div><footer><h3>© Robert P. Hitt</h3></footer><script src=scripts/4776dee8.vendor.js></script><script>$(document).scroll(function () {
+            var y = $(this).scrollTop();
+            if (y > 750) {
+                $('#headerNav').removeClass('hidden');
+                $('#headerNav').fadeIn('slow');
+                $('.mobile-container').addClass('height-change');
+                $('#retroLogo').removeClass('hidden');
+            } else {
+                $('#headerNav').fadeOut();
+                $('.mobile-container').removeClass('height-change');
+                $('#retroLogo').addClass('hidden');
+
+
+            }
+        });
+        
+        $('#retroLogo').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+         $('#myName').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+        $('#arrowDown').click(function() {
+            var y = $(this).scrollTop();
+            if (y > 750) {
+                $('#headerNav').removeClass('hidden');
+                $('#headerNav').fadeIn('slow');
+            } 
+          return false;
+        });
+
+        $('#resume').click(function() {
+            $('#resumeSection').toggleClass('hidden'); 
+          return false;
+        });
+
+        $('#closeResume').click(function() {
+            $('#resumeSection').toggleClass('hidden');
+          return false;
+        });
+
+        $('.span').click(function() {
+          $(this).toggleClass('expanded').siblings('div').slideToggle();
+          $('.glyphicon-align-justify').toggleClass('hidden');
+          $('.glyphicon-remove').toggleClass('hidden');
+        });
+        $('.mobile-nav-item').click(function() {
+          $('.span').toggleClass('expanded').siblings('div').slideToggle();
+          $('.glyphicon-align-justify').toggleClass('hidden');
+          $('.glyphicon-remove').toggleClass('hidden');
+        });</script><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');</script><script src=scripts/6b5da0e8.plugins.js></script><script src=scripts/d182a6b6.main.js></script>
